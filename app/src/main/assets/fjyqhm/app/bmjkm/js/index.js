@@ -86,7 +86,7 @@ function cgDetail(resultData) {
     $(".eui-fBtn").show();
     //拼接码内容
     //var oDate = getMyDate(new Date().getTime());
-    var ewmVal = resultData.QR_CODE + "|" + new Date().getTime();
+    var ewmVal = "pid="+resultData.QR_CODE + "&timestamp=" + new Date().getTime();
 
     $("#okP").show();
     $("#noP").hide();

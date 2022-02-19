@@ -68,10 +68,10 @@ public class WebViewActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public void onBackPressed() {
-        startActivity(new Intent(this, MainActivity.class));
-        sendBroadcast(new Intent(MainActivity.EXIT_BROADCAST));
-    }
+//    @Override
+//    public void onBackPressed() {
+//        startActivity(new Intent(this, MainActivity.class));
+//        sendBroadcast(new Intent(MainActivity.EXIT_BROADCAST));
+//    }
 
 }
