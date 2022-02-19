@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HUST QRcode</string>
+    <string name="health_qr_code">Health QR code</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="save">Save</string>
+    <string name="idcard_number">HUST ID</string>
+    <string name="name">Name</string>
+    <string name="department">Department</string>
+    <string name="all_data_saved_locally">All information is only saved locally.</string>
+    <string name="health_qr_code_generator">HUST QRcode Generator</string>
+    <string name="click2gen">Click to Gen</string>
+</resources>
