@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 public class WebViewActivity extends AppCompatActivity {
 
@@ -59,13 +60,26 @@ public class WebViewActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        //return OptionsMenu.onOptionsItemMenuSelected(this, item);
+        if (item.getItemId() == android.R.id.home){
+            finish();
+            Toast.makeText(this,"Back", Toast.LENGTH_LONG).show();
+            return true;
+        }
         return OptionsMenu.onOptionsItemMenuSelected(this, item);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.setting_menui, menu);
         return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        Toast.makeText(this, "Backed", Toast.LENGTH_LONG).show();
+        super.onBackPressed();
     }
 
 //    @Override

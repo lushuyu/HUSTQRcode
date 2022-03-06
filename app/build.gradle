@@ -10,7 +10,7 @@ android {
         applicationId "moe.lushuyu.HUSTQRcode"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 6
+        versionCode 8
         versionName "Beta 2.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
